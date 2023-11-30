@@ -4,7 +4,7 @@
   🥇 Best Github Unfollow Checker 🥇
 </h1>
 
-<p align="center"><img src="/assets/images/unfollow.png" alt="E2F" /></p>
+<p align="center"><img src="/assets/images/unfollow.png" alt="E2F" width="25%"/></p>
 
 <h3 align="center">
   This project is used to find all those who unfollowed you
