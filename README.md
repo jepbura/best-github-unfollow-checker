@@ -16,7 +16,8 @@ This is because it 🤖 automatically checks the status of your followers every 
 
 ## Usage
 
-Specify the environmental variable to set up project configurations.(**settings => secrets => actions**)
+Specify the environmental variable to set up project configurations.
+(**settings => secrets => actions => new repository secret**)
 
 | Variable            | Description                                      | example                           |
 | ------------------- | ------------------------------------------------ | --------------------------------- |
