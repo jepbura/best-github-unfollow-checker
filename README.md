@@ -4,7 +4,7 @@
   🥇 Best Github Unfollow Checker 🥇
 </h1>
 
-<p align="center"><img src="https://raw.githubusercontent.com/jepbura/best-github-unfollow-checker/main/assets/images/unfollow.png" alt="E2F" /></p>
+<p align="center"><img src="/assets/images/unfollow.png" alt="E2F" /></p>
 
 <h3 align="center">
   This project is used to find all those who unfollowed you
