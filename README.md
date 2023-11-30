@@ -28,7 +28,7 @@ Specify the environmental variable to set up project configurations.(**settings 
 
 1- **IGNORE_LIST** contains an exception list that you don't want these people to unfollow.
 
-### Be sure to use the symbol {_,_} to separate the names
+### Be sure to use the symbol { , } to separate the names
 
 2- Visit [ACCESS_TOKEN](https://github.com/settings/tokens?type=beta), generate a new token, specify a name and expiration, choose your repositories (only select repositories), and ensure to set **Read and write** for **Followers** in the Permissions section.
 
