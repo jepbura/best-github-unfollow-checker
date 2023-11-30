@@ -18,7 +18,7 @@ This is because it 🤖 automatically checks the status of your followers every 
 
 Specify the environmental variable to set up project configurations.
 <br>
-(**settings => secrets => actions => new repository secret**)
+(**Your repository settings => secrets => actions => new repository secret**)
 
 | Variable            | Description                                      | example                           |
 | ------------------- | ------------------------------------------------ | --------------------------------- |
