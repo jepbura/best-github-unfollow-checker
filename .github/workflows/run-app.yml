@@ -1,0 +1,29 @@
+name: Unfollow users
+
+on:
+  schedule:
+    # - cron: '0 3 * * *' # Tehran zone 7 AM every day
+    - cron: '30 14 * * *' # Tehran zone 18 PM every day
+
+jobs:
+  unfollow:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    
+    - name: Install Dependencies
+      run: pip install PyGithub requests
+    
+    - name: Run Python Script
+      env:
+        USERNAME: ${{ secrets.USERNAME }}
+        IGNORE_LIST: ${{ secrets.IGNORE_LIST }}
+        GH_ACCESS_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
+      run: python main.py
